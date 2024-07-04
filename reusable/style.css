@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.maincontainer{
+    max-width: 1300px;
+    width: 100%;
+}
+.book-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.book-item {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.book-item h2 {
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.expensive {
+    color: red;
+}
+
+.affordable {
+    color: green;
+}
