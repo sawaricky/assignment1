@@ -1,9 +1,31 @@
-The website shows a books list in which you can purchase marvel character books. In the future an admin can then edit these buy updating a book price or deleting an entire book. 
+📚 Marvel Character Books Listing Website
+This website displays a curated list of Marvel character books available for purchase. Each book entry includes key information such as title, price, and author, displayed in a clean and minimalistic card-based layout for ease of browsing and accessibility.
 
-Using a join to show the authors name using the author id for the book they have written. Showing the expensive books to be above $20 to be in red and below $20 to be affordable to be in green
+🔍 Features
+Book Listings: View all available Marvel books in an organized card view.
 
-showing it in a minimalistic list view in form of cards, to make it easier and accessible. This makes the books to be viewed and purchased efficient. 
+Author Integration: Each book displays the author's name using a SQL JOIN via the authorId.
 
-The following folders have the content of the requested files. 
-1. Database file in the "db-file" folder
-2. Screenshots in the "screen-file" folder
+Price Indicators:
+
+Books priced above $20 are marked in red as premium.
+
+Books $20 and below are marked in green as affordable.
+
+Admin Capabilities (Future Implementation):
+
+Update book prices.
+
+Delete books from the listing.
+
+💡 Design & Accessibility
+Minimalist card layout for clarity and user-friendly interaction.
+
+Color-coded pricing for quick cost reference.
+
+Designed for a smooth and efficient browsing and purchasing experience.
+
+📁 Project Structure
+db-file/: Contains the database file used for retrieving book and author data.
+
+screen-file/: Contains screenshots demonstrating UI and functionality.
